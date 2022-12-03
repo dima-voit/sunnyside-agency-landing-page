@@ -5,6 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="style.css">
   
   <title>Frontend Mentor | Sunnyside agency landing page</title>
 
@@ -15,12 +20,42 @@
   </style>
 </head>
 <body>
-  About
-  Services
-  Projects
-  Contact
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <div class="logo">
+          <a href="#">
+            <img src="images/logo.svg" alt="Sunnyside agency">
+          </a>
+        </div>
+        <nav class="nav">
+          <ul class="nav__list">
+            <li><a class="nav__link" href="#">About</a></li>
+            <li><a class="nav__link" href="#">Services</a></li>
+            <li><a class="nav__link" href="#">Projects</a></li>
+            <li><a class="contact__btn" href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <div class="intro">
+      <div class="container">
+        <h1 class="intro__title">
+          We are creatives
+        </h1>
+        <div class="arrow">
+          <img src="images/icon-arrow-down.svg" alt="Down">
+        </div>
+      </div>
+    </div>
+  </main>
+  
+  
+  
 
-  We are creatives
+  
 
   Transform your brand
 
@@ -62,7 +97,7 @@
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="https://www.linkedin.com/in/dmytro-voit/">Dmytro</a>.
+    Coded by <a href="https://www.linkedin.com/in/dmytro-voit" target="_blank">Dmytro</a>.
   </div>
 </body>
 </html>

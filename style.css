@@ -1,0 +1,68 @@
+body {
+  font-family: 'Barlow', sans-serif;
+  font-size: 18px;
+  background-color: hsl(0, 0%, 100%);
+}
+
+.container {
+  width: 100%;
+  max-width: 1412px;
+  margin: 0 auto;
+  padding: 0 41px;
+}
+
+.header {
+  height: 120px;
+  display: flex;
+  align-items: center;
+  background: url(./images/desktop/image-header.jpg);
+  background-position: center 0;
+  background-repeat: no-repeat;
+}
+
+.header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav__list {
+  display: flex;
+  gap: 45px;
+}
+
+.nav__link {
+  color: hsl(0, 0%, 100%);
+}
+
+.nav__link:hover {
+  text-decoration: underline;
+}
+
+.contact__btn {
+  position: relative;
+  padding: 20px 30px;
+  font-family: 'Fraunces', serif;
+  color: hsl(212, 27%, 19%);
+  text-transform: uppercase;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 50px;
+  transition: all .2s linear;
+}
+
+.contact__btn:hover {
+  color: hsl(0, 0%, 100%);
+  background-color: rgba(0, 0, 0, 0.03);
+}
+
+.intro {
+  height: 660px;
+  background: url(./images/desktop/image-header.jpg);
+  background-position: center -90px;
+  background-repeat: no-repeat;
+}
+
+.intro__title {
+  font-family: 'Fraunces', serif;
+  color: hsl(0, 0%, 100%);
+}
