@@ -445,10 +445,12 @@ body {
     background-color: hsl(0, 0%, 100%);
     z-index: 100;
     transition: all .8s;
+    transform: translateX(369px) rotateZ(-90deg);
     opacity: 0;
   }
 
   .nav.open {
+    transform: translateX(0) rotateZ(0);
     opacity: 1;
   }
 
